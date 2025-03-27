@@ -31,7 +31,7 @@ services:
           mountPoints:
             - serverAddr: 03808482b2-nwn30.cn-hangzhou.nas.aliyuncs.com
               nasDir: /n8n-data
-              fcDir: /home/node/.n8n
+              fcDir: /home/root/.n8n
       function:
         name: "n8n-api"
         description: 'n8n api'
@@ -48,7 +48,7 @@ services:
           periodSeconds: 10
           timeoutSeconds: 3
           successThreshold: 1
-          initialDelaySeconds: 10
+          initialDelaySeconds: 5
         cpu: 2
         memorySize: 2048 # 单位MB
         diskSize: 512 # 单位MB
