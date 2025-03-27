@@ -30,8 +30,8 @@ services:
           groupId: 0
           mountPoints:
             - serverAddr: 03808482b2-nwn30.cn-hangzhou.nas.aliyuncs.com
-              nasDir: /n8n-data/.n8n
-              fcDir: /home/root/.n8n
+              nasDir: /n8n-data
+              fcDir: /home/data
       function:
         name: "n8n-api"
         description: 'n8n api'
