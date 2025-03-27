@@ -95,6 +95,7 @@ services:
               - DELETE
               - HEAD
               - OPTIONS
+              - PATCH
       customDomains:
         - domainName: ${vars.service_domain}
           protocol: HTTP
